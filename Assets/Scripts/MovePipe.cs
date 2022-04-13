@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class MovePipe : MonoBehaviour
 {
-    Transform transform;
+    Transform _transform;
     // Start is called before the first frame update
     void Start()
     {
-        transform = GetComponent<Transform>();
-        
+        _transform = GetComponent<Transform>();  
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + new Vector3(-Time.deltaTime, 0, 0);
+        _transform.position = transform.position + new Vector3(-Time.deltaTime/2, 0, 0);
     }
 }

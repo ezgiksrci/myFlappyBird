@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pipe
+  - Ground
+  - Point
+  - playButton
+  - Score
+  - HighScore
   layers:
   - Default
   - TransparentFX
